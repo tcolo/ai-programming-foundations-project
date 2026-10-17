@@ -8,9 +8,7 @@ measurements distinguish three iris species, and finds that petal measurements
 separate them almost completely while sepal measurements do not.
 
 **Dataset:** [Iris](https://archive.ics.uci.edu/dataset/53/iris) — UCI Machine
-Learning Repository (150 rows, 5 columns). The original distribution files are
-kept in [`iris/`](iris/); [`iris.csv`](iris.csv) is the same data with a header
-row added. Section 2.1 of the notebook provides a `refresh_from_source()`
+Learning Repository (150 rows, 5 columns). [`iris.csv`](iris.csv) is the same data with a header row added. Section 2.1 of the notebook provides a `refresh_from_source()`
 utility that re-downloads the published file and checks it against a recorded
 SHA-256 digest; it is not run as part of the analysis.
 
@@ -20,7 +18,6 @@ SHA-256 digest; it is not run as part of the analysis.
 |---|---|
 | `data_workflow.ipynb` | The full analysis |
 | `iris.csv` | The dataset the notebook loads |
-| `iris/` | Original UCI files, including the `iris.names` documentation |
 | `requirements.txt` | Pinned dependency versions |
 | `module_summary.pdf` | Written report with citations |
 
